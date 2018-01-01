@@ -1,0 +1,20 @@
+{
+  "name": "chai_mocha_sample",
+  "version": "1.0.0",
+  "description": "simple example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*test.js",
+    "start": "node app"
+  },
+  "keywords": [
+    "chai",
+    "mocha"
+  ],
+  "author": "shivam",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
